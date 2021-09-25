@@ -11,7 +11,7 @@
         <!--5Minutes4Face-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_Minutes4Face" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="PeopleListViewController" customModule="_Minutes4Face" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,7 +68,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="5Minutes4Face" id="qn9-m0-w2I">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="plus" catalog="system" id="CSg-7u-ENx"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="plus" catalog="system" id="CSg-7u-ENx">
+                            <connections>
+                                <action selector="addPersonButtonPressed:" destination="BYZ-38-t0r" id="dZI-tj-2dl"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

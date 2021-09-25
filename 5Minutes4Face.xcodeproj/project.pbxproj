@@ -12,7 +12,7 @@
 		7A1E321F26FFC2D4002BD263 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E321E26FFC2D4002BD263 /* CoreDataHelper.swift */; };
 		7A27AC4A26FF0A3400FFB0F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27AC4926FF0A3400FFB0F9 /* AppDelegate.swift */; };
 		7A27AC4C26FF0A3400FFB0F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27AC4B26FF0A3400FFB0F9 /* SceneDelegate.swift */; };
-		7A27AC4E26FF0A3400FFB0F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27AC4D26FF0A3400FFB0F9 /* ViewController.swift */; };
+		7A27AC4E26FF0A3400FFB0F9 /* PeopleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27AC4D26FF0A3400FFB0F9 /* PeopleListViewController.swift */; };
 		7A27AC5126FF0A3400FFB0F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A27AC4F26FF0A3400FFB0F9 /* Main.storyboard */; };
 		7A27AC5426FF0A3400FFB0F9 /* _Minutes4Face.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A27AC5226FF0A3400FFB0F9 /* _Minutes4Face.xcdatamodeld */; };
 		7A27AC5626FF0A3700FFB0F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A27AC5526FF0A3700FFB0F9 /* Assets.xcassets */; };
@@ -26,7 +26,7 @@
 		7A27AC4626FF0A3400FFB0F9 /* 5Minutes4Face.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 5Minutes4Face.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A27AC4926FF0A3400FFB0F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A27AC4B26FF0A3400FFB0F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A27AC4D26FF0A3400FFB0F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A27AC4D26FF0A3400FFB0F9 /* PeopleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListViewController.swift; sourceTree = "<group>"; };
 		7A27AC5026FF0A3400FFB0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A27AC5326FF0A3400FFB0F9 /* _Minutes4Face.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _Minutes4Face.xcdatamodel; sourceTree = "<group>"; };
 		7A27AC5526FF0A3700FFB0F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 				7A1E321A26FFC143002BD263 /* DataModel.xcdatamodeld */,
 				7A1E321E26FFC2D4002BD263 /* CoreDataHelper.swift */,
 				7A27AC4B26FF0A3400FFB0F9 /* SceneDelegate.swift */,
-				7A27AC4D26FF0A3400FFB0F9 /* ViewController.swift */,
+				7A27AC4D26FF0A3400FFB0F9 /* PeopleListViewController.swift */,
 				7A27AC4F26FF0A3400FFB0F9 /* Main.storyboard */,
 				7A27AC5526FF0A3700FFB0F9 /* Assets.xcassets */,
 				7A27AC5726FF0A3700FFB0F9 /* LaunchScreen.storyboard */,
@@ -219,7 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A1E321F26FFC2D4002BD263 /* CoreDataHelper.swift in Sources */,
-				7A27AC4E26FF0A3400FFB0F9 /* ViewController.swift in Sources */,
+				7A27AC4E26FF0A3400FFB0F9 /* PeopleListViewController.swift in Sources */,
 				7A1E321C26FFC143002BD263 /* DataModel.xcdatamodeld in Sources */,
 				7A27AC5426FF0A3400FFB0F9 /* _Minutes4Face.xcdatamodeld in Sources */,
 				7A27AC4A26FF0A3400FFB0F9 /* AppDelegate.swift in Sources */,
