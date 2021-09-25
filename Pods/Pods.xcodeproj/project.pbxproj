@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0213F9D8FD58E0325B72DE69043BD3B4 /* Anchorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F484FD99A960573EB8309F347B5C5D /* Anchorage.swift */; };
+		0DF9F3CA25DC82E3AEF2E33AA7CC0CBA /* MKStepper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA87B4656EBB48EB0EAC3544259C17D /* MKStepper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14DC1B06CCAB3CEA2CBD790FA23BAFB9 /* Pods-5Minutes4Face-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C40FEC91B9E50F64132A0DC8B13BB9A /* Pods-5Minutes4Face-dummy.m */; };
+		254CC163CB475D08BF63B01FD365F1A4 /* MKStepper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3699374DF02394E00782F19C3AA28916 /* MKStepper-dummy.m */; };
+		6D3F5BC6C2988D1FA47B356B5240BBE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		72EFC5CAAF29EEBDE9F09C74703A163B /* AnchorGroupProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CBE2F08ED0E3AD213CB074A43DD35F /* AnchorGroupProvider.swift */; };
+		7AFB155F8339C823A43E7A1F4457D863 /* MKStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BFCDD6B4DAAE194FB13B405BB910A8 /* MKStepperView.swift */; };
+		A0FEA094B5ABEEFCC10092DFBFB81DD5 /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F4235B5AD3BE2027101D9244B683C3 /* Internal.swift */; };
+		ABF940ED36EEC54B713A3F45B3507CC5 /* Pods-5Minutes4Face-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 494A75FFFFB625F51FC26162748A8A86 /* Pods-5Minutes4Face-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7166DA2394AB6907660DB6CB9B8F6EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C6E3EFDBF8FFCFA10A1C836D356ACAF0 /* NSLayoutAnchor+MultiplierConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DDB3DEC56353DB10BD1AF6F1EDC43 /* NSLayoutAnchor+MultiplierConstraints.swift */; };
+		F6D344D238D985FC3B20288D5A284A29 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AED970347780866B01562C14310967B /* Priority.swift */; };
+		F9B66ADF96E6D940CD378645494488A1 /* Compatability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D2DFB88EAD3592C273ADFC92C49DE /* Compatability.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32638555A6EC0B94BFB30EF7C1936FAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90A85D35BE7087E09A0FD9B06291DE62;
+			remoteInfo = MKStepper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016937A6ACAB617EF66EAEB55B97E0BB /* MKStepper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKStepper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E7B573B15C16BF1B494C357B22CC8FD /* Pods-5Minutes4Face.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-5Minutes4Face.release.xcconfig"; sourceTree = "<group>"; };
+		12BFCDD6B4DAAE194FB13B405BB910A8 /* MKStepperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKStepperView.swift; path = MKStepper/Classes/View/MKStepperView.swift; sourceTree = "<group>"; };
+		1C40FEC91B9E50F64132A0DC8B13BB9A /* Pods-5Minutes4Face-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-5Minutes4Face-dummy.m"; sourceTree = "<group>"; };
+		20888D3D212AEFDA84386E6B4E581AD0 /* Pods-5Minutes4Face.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-5Minutes4Face.debug.xcconfig"; sourceTree = "<group>"; };
+		25F4235B5AD3BE2027101D9244B683C3 /* Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Internal.swift; path = MKStepper/Classes/Anchorage/Internal.swift; sourceTree = "<group>"; };
+		314CFF765372EF9C2BE92178BF1B21A6 /* Pods_5Minutes4Face.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_5Minutes4Face.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3699374DF02394E00782F19C3AA28916 /* MKStepper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKStepper-dummy.m"; sourceTree = "<group>"; };
+		3FD6ABAE2E8D908315FF043D0B1940A1 /* Pods-5Minutes4Face-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-5Minutes4Face-acknowledgements.plist"; sourceTree = "<group>"; };
+		494A75FFFFB625F51FC26162748A8A86 /* Pods-5Minutes4Face-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-5Minutes4Face-umbrella.h"; sourceTree = "<group>"; };
+		542DDB3DEC56353DB10BD1AF6F1EDC43 /* NSLayoutAnchor+MultiplierConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutAnchor+MultiplierConstraints.swift"; path = "MKStepper/Classes/Anchorage/NSLayoutAnchor+MultiplierConstraints.swift"; sourceTree = "<group>"; };
+		5B6D2DFB88EAD3592C273ADFC92C49DE /* Compatability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compatability.swift; path = MKStepper/Classes/Anchorage/Compatability.swift; sourceTree = "<group>"; };
+		6AED970347780866B01562C14310967B /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = MKStepper/Classes/Anchorage/Priority.swift; sourceTree = "<group>"; };
+		706D70E8CD6FEEB970B01E15A13364EC /* MKStepper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MKStepper-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75CBE2F08ED0E3AD213CB074A43DD35F /* AnchorGroupProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnchorGroupProvider.swift; path = MKStepper/Classes/Anchorage/AnchorGroupProvider.swift; sourceTree = "<group>"; };
+		80B7AE93E2477E762273D0355CD23EEB /* MKStepper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKStepper-prefix.pch"; sourceTree = "<group>"; };
+		8963590D12239BEA9B9F09D5E987BE2B /* Pods-5Minutes4Face-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-5Minutes4Face-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2F484FD99A960573EB8309F347B5C5D /* Anchorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anchorage.swift; path = MKStepper/Classes/Anchorage/Anchorage.swift; sourceTree = "<group>"; };
+		AF41DC221BF04EC33B213F5D4B947351 /* MKStepper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKStepper.release.xcconfig; sourceTree = "<group>"; };
+		B8A04F1436E7620E0D2D08689AABBDC9 /* Pods-5Minutes4Face.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-5Minutes4Face.modulemap"; sourceTree = "<group>"; };
+		CB1801C345B25DE802B0CA8FB14144A7 /* MKStepper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MKStepper.modulemap; sourceTree = "<group>"; };
+		CFA87B4656EBB48EB0EAC3544259C17D /* MKStepper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKStepper-umbrella.h"; sourceTree = "<group>"; };
+		D461830DC17C6EC62B972C365997FEF4 /* Pods-5Minutes4Face-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-5Minutes4Face-frameworks.sh"; sourceTree = "<group>"; };
+		EDE43690D92EA27595D201ED17271C5A /* MKStepper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKStepper.debug.xcconfig; sourceTree = "<group>"; };
+		F5EBB8D149C73A8E693E297EC4587058 /* Pods-5Minutes4Face-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-5Minutes4Face-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		899B0A65C482127142AE6701027CC671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7166DA2394AB6907660DB6CB9B8F6EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3E81CEE6593EBF4ABFD919AA263308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3F5BC6C2988D1FA47B356B5240BBE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C17F9596B33577F90AD694FAF2F0141 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F92E38C3F6FD1F6AD606AF0B94B6073 /* MKStepper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8B9329B396C4D5493F0270EF3B9C2EDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				016937A6ACAB617EF66EAEB55B97E0BB /* MKStepper.framework */,
+				314CFF765372EF9C2BE92178BF1B21A6 /* Pods_5Minutes4Face.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F92E38C3F6FD1F6AD606AF0B94B6073 /* MKStepper */ = {
+			isa = PBXGroup;
+			children = (
+				A2F484FD99A960573EB8309F347B5C5D /* Anchorage.swift */,
+				75CBE2F08ED0E3AD213CB074A43DD35F /* AnchorGroupProvider.swift */,
+				5B6D2DFB88EAD3592C273ADFC92C49DE /* Compatability.swift */,
+				25F4235B5AD3BE2027101D9244B683C3 /* Internal.swift */,
+				12BFCDD6B4DAAE194FB13B405BB910A8 /* MKStepperView.swift */,
+				542DDB3DEC56353DB10BD1AF6F1EDC43 /* NSLayoutAnchor+MultiplierConstraints.swift */,
+				6AED970347780866B01562C14310967B /* Priority.swift */,
+				E87605742A941F9978FC5256A61A3770 /* Support Files */,
+			);
+			path = MKStepper;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1C17F9596B33577F90AD694FAF2F0141 /* Pods */,
+				8B9329B396C4D5493F0270EF3B9C2EDF /* Products */,
+				E436DE44C369E60EB92C0AE652E964FC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E436DE44C369E60EB92C0AE652E964FC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7093F4F46AD08CEDACACFB7EB5780D0 /* Pods-5Minutes4Face */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E7093F4F46AD08CEDACACFB7EB5780D0 /* Pods-5Minutes4Face */ = {
+			isa = PBXGroup;
+			children = (
+				B8A04F1436E7620E0D2D08689AABBDC9 /* Pods-5Minutes4Face.modulemap */,
+				F5EBB8D149C73A8E693E297EC4587058 /* Pods-5Minutes4Face-acknowledgements.markdown */,
+				3FD6ABAE2E8D908315FF043D0B1940A1 /* Pods-5Minutes4Face-acknowledgements.plist */,
+				1C40FEC91B9E50F64132A0DC8B13BB9A /* Pods-5Minutes4Face-dummy.m */,
+				D461830DC17C6EC62B972C365997FEF4 /* Pods-5Minutes4Face-frameworks.sh */,
+				8963590D12239BEA9B9F09D5E987BE2B /* Pods-5Minutes4Face-Info.plist */,
+				494A75FFFFB625F51FC26162748A8A86 /* Pods-5Minutes4Face-umbrella.h */,
+				20888D3D212AEFDA84386E6B4E581AD0 /* Pods-5Minutes4Face.debug.xcconfig */,
+				0E7B573B15C16BF1B494C357B22CC8FD /* Pods-5Minutes4Face.release.xcconfig */,
+			);
+			name = "Pods-5Minutes4Face";
+			path = "Target Support Files/Pods-5Minutes4Face";
+			sourceTree = "<group>";
+		};
+		E87605742A941F9978FC5256A61A3770 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB1801C345B25DE802B0CA8FB14144A7 /* MKStepper.modulemap */,
+				3699374DF02394E00782F19C3AA28916 /* MKStepper-dummy.m */,
+				706D70E8CD6FEEB970B01E15A13364EC /* MKStepper-Info.plist */,
+				80B7AE93E2477E762273D0355CD23EEB /* MKStepper-prefix.pch */,
+				CFA87B4656EBB48EB0EAC3544259C17D /* MKStepper-umbrella.h */,
+				EDE43690D92EA27595D201ED17271C5A /* MKStepper.debug.xcconfig */,
+				AF41DC221BF04EC33B213F5D4B947351 /* MKStepper.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MKStepper";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6FB959CBEEF5C75CFE9371269DFD69A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF9F3CA25DC82E3AEF2E33AA7CC0CBA /* MKStepper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA231798008BBCCCFA20C654C467774 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF940ED36EEC54B713A3F45B3507CC5 /* Pods-5Minutes4Face-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5DB19F54F74615BC01F4BC08C8295AFF /* Pods-5Minutes4Face */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE77A7C03AD5E1BDE4EE2BA73926A26 /* Build configuration list for PBXNativeTarget "Pods-5Minutes4Face" */;
+			buildPhases = (
+				EEA231798008BBCCCFA20C654C467774 /* Headers */,
+				7C76C4757A1A26388F8C96289EC19956 /* Sources */,
+				899B0A65C482127142AE6701027CC671 /* Frameworks */,
+				D5C24DB150FAA5BD82DF52B631F46CB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B34CD60973D4898DA72910A51CA93285 /* PBXTargetDependency */,
+			);
+			name = "Pods-5Minutes4Face";
+			productName = "Pods-5Minutes4Face";
+			productReference = 314CFF765372EF9C2BE92178BF1B21A6 /* Pods_5Minutes4Face.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90A85D35BE7087E09A0FD9B06291DE62 /* MKStepper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF6978F7157170A17537088BE6C277D /* Build configuration list for PBXNativeTarget "MKStepper" */;
+			buildPhases = (
+				6FB959CBEEF5C75CFE9371269DFD69A4 /* Headers */,
+				69DE2FB0B1EDB9958B2B017BC86BE481 /* Sources */,
+				EE3E81CEE6593EBF4ABFD919AA263308 /* Frameworks */,
+				CEDF073129EDB7CCD33E178C5419951C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKStepper;
+			productName = MKStepper;
+			productReference = 016937A6ACAB617EF66EAEB55B97E0BB /* MKStepper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8B9329B396C4D5493F0270EF3B9C2EDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90A85D35BE7087E09A0FD9B06291DE62 /* MKStepper */,
+				5DB19F54F74615BC01F4BC08C8295AFF /* Pods-5Minutes4Face */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDF073129EDB7CCD33E178C5419951C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C24DB150FAA5BD82DF52B631F46CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69DE2FB0B1EDB9958B2B017BC86BE481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0213F9D8FD58E0325B72DE69043BD3B4 /* Anchorage.swift in Sources */,
+				72EFC5CAAF29EEBDE9F09C74703A163B /* AnchorGroupProvider.swift in Sources */,
+				F9B66ADF96E6D940CD378645494488A1 /* Compatability.swift in Sources */,
+				A0FEA094B5ABEEFCC10092DFBFB81DD5 /* Internal.swift in Sources */,
+				254CC163CB475D08BF63B01FD365F1A4 /* MKStepper-dummy.m in Sources */,
+				7AFB155F8339C823A43E7A1F4457D863 /* MKStepperView.swift in Sources */,
+				C6E3EFDBF8FFCFA10A1C836D356ACAF0 /* NSLayoutAnchor+MultiplierConstraints.swift in Sources */,
+				F6D344D238D985FC3B20288D5A284A29 /* Priority.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C76C4757A1A26388F8C96289EC19956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DC1B06CCAB3CEA2CBD790FA23BAFB9 /* Pods-5Minutes4Face-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B34CD60973D4898DA72910A51CA93285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MKStepper;
+			target = 90A85D35BE7087E09A0FD9B06291DE62 /* MKStepper */;
+			targetProxy = 32638555A6EC0B94BFB30EF7C1936FAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42B2499A8079DBB239552CABA5D2AFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E7B573B15C16BF1B494C357B22CC8FD /* Pods-5Minutes4Face.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-5Minutes4Face/Pods-5Minutes4Face-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-5Minutes4Face/Pods-5Minutes4Face.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7E9F424F44EAE486EBC8025DF6EEC2E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20888D3D212AEFDA84386E6B4E581AD0 /* Pods-5Minutes4Face.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-5Minutes4Face/Pods-5Minutes4Face-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-5Minutes4Face/Pods-5Minutes4Face.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A872A11F6AC324A06BCD256A8C84543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDE43690D92EA27595D201ED17271C5A /* MKStepper.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MKStepper/MKStepper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKStepper/MKStepper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MKStepper/MKStepper.modulemap";
+				PRODUCT_MODULE_NAME = MKStepper;
+				PRODUCT_NAME = MKStepper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DAF20828E3BD43C5C934F4009509F3C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF41DC221BF04EC33B213F5D4B947351 /* MKStepper.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MKStepper/MKStepper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKStepper/MKStepper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MKStepper/MKStepper.modulemap";
+				PRODUCT_MODULE_NAME = MKStepper;
+				PRODUCT_NAME = MKStepper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE77A7C03AD5E1BDE4EE2BA73926A26 /* Build configuration list for PBXNativeTarget "Pods-5Minutes4Face" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E9F424F44EAE486EBC8025DF6EEC2E6 /* Debug */,
+				42B2499A8079DBB239552CABA5D2AFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF6978F7157170A17537088BE6C277D /* Build configuration list for PBXNativeTarget "MKStepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A872A11F6AC324A06BCD256A8C84543 /* Debug */,
+				DAF20828E3BD43C5C934F4009509F3C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
