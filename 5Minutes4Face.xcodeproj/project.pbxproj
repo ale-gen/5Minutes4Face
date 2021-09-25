@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		15E2E3C92757382FC59C5462 /* Pods_5Minutes4Face.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCBED3365E1375EE66386A4 /* Pods_5Minutes4Face.framework */; };
 		7A1E321C26FFC143002BD263 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E321A26FFC143002BD263 /* DataModel.xcdatamodeld */; };
+		7A1E321F26FFC2D4002BD263 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E321E26FFC2D4002BD263 /* CoreDataHelper.swift */; };
 		7A27AC4A26FF0A3400FFB0F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27AC4926FF0A3400FFB0F9 /* AppDelegate.swift */; };
 		7A27AC4C26FF0A3400FFB0F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27AC4B26FF0A3400FFB0F9 /* SceneDelegate.swift */; };
 		7A27AC4E26FF0A3400FFB0F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27AC4D26FF0A3400FFB0F9 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		7A1E321B26FFC143002BD263 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		7A1E321E26FFC2D4002BD263 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 		7A27AC4626FF0A3400FFB0F9 /* 5Minutes4Face.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 5Minutes4Face.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A27AC4926FF0A3400FFB0F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A27AC4B26FF0A3400FFB0F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			children = (
 				7A27AC4926FF0A3400FFB0F9 /* AppDelegate.swift */,
 				7A1E321A26FFC143002BD263 /* DataModel.xcdatamodeld */,
+				7A1E321E26FFC2D4002BD263 /* CoreDataHelper.swift */,
 				7A27AC4B26FF0A3400FFB0F9 /* SceneDelegate.swift */,
 				7A27AC4D26FF0A3400FFB0F9 /* ViewController.swift */,
 				7A27AC4F26FF0A3400FFB0F9 /* Main.storyboard */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A1E321F26FFC2D4002BD263 /* CoreDataHelper.swift in Sources */,
 				7A27AC4E26FF0A3400FFB0F9 /* ViewController.swift in Sources */,
 				7A1E321C26FFC143002BD263 /* DataModel.xcdatamodeld in Sources */,
 				7A27AC5426FF0A3400FFB0F9 /* _Minutes4Face.xcdatamodeld in Sources */,
