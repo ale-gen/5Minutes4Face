@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		15E2E3C92757382FC59C5462 /* Pods_5Minutes4Face.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCBED3365E1375EE66386A4 /* Pods_5Minutes4Face.framework */; };
+		7A1E321C26FFC143002BD263 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E321A26FFC143002BD263 /* DataModel.xcdatamodeld */; };
 		7A27AC4A26FF0A3400FFB0F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27AC4926FF0A3400FFB0F9 /* AppDelegate.swift */; };
 		7A27AC4C26FF0A3400FFB0F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27AC4B26FF0A3400FFB0F9 /* SceneDelegate.swift */; };
 		7A27AC4E26FF0A3400FFB0F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27AC4D26FF0A3400FFB0F9 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A1E321B26FFC143002BD263 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		7A27AC4626FF0A3400FFB0F9 /* 5Minutes4Face.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 5Minutes4Face.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A27AC4926FF0A3400FFB0F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A27AC4B26FF0A3400FFB0F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				7A27AC4926FF0A3400FFB0F9 /* AppDelegate.swift */,
+				7A1E321A26FFC143002BD263 /* DataModel.xcdatamodeld */,
 				7A27AC4B26FF0A3400FFB0F9 /* SceneDelegate.swift */,
 				7A27AC4D26FF0A3400FFB0F9 /* ViewController.swift */,
 				7A27AC4F26FF0A3400FFB0F9 /* Main.storyboard */,
@@ -94,7 +97,6 @@
 				CC3E0AF7629B00669E3A5F68 /* Pods-5Minutes4Face.debug.xcconfig */,
 				9AC50A5AACA94D2479387412 /* Pods-5Minutes4Face.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A27AC4E26FF0A3400FFB0F9 /* ViewController.swift in Sources */,
+				7A1E321C26FFC143002BD263 /* DataModel.xcdatamodeld in Sources */,
 				7A27AC5426FF0A3400FFB0F9 /* _Minutes4Face.xcdatamodeld in Sources */,
 				7A27AC4A26FF0A3400FFB0F9 /* AppDelegate.swift in Sources */,
 				7A27AC4C26FF0A3400FFB0F9 /* SceneDelegate.swift in Sources */,
@@ -422,6 +425,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		7A1E321A26FFC143002BD263 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A1E321B26FFC143002BD263 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 7A1E321B26FFC143002BD263 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		7A27AC5226FF0A3400FFB0F9 /* _Minutes4Face.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
