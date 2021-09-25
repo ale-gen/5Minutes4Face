@@ -79,10 +79,10 @@
             </objects>
             <point key="canvasLocation" x="855.07246376811599" y="75.669642857142847"/>
         </scene>
-        <!--View Controller-->
+        <!--Person Details View Controller-->
         <scene sceneID="lfT-8D-GMe">
             <objects>
-                <viewController id="3Jf-fl-zuF" sceneMemberID="viewController">
+                <viewController id="3Jf-fl-zuF" customClass="PersonDetailsViewController" customModule="_Minutes4Face" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1ys-A4-eId">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -133,6 +133,9 @@
                                 <state key="normal" title="Add time">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="addTimeButtonPressed:" destination="3Jf-fl-zuF" eventType="touchUpInside" id="fBa-gO-Dlg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mlw-aL-HoJ"/>
@@ -158,6 +161,11 @@
                     <navigationItem key="navigationItem" id="hjN-AA-EUw">
                         <barButtonItem key="backBarButtonItem" title="Back" id="Sbp-uc-fEs"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="currentLeftTimeLabel" destination="DCy-WI-bdb" id="EJf-m8-cSd"/>
+                        <outlet property="minutesStepperView" destination="Bk2-H3-ecF" id="xLa-4f-Y8H"/>
+                        <outlet property="personImageView" destination="dnt-wA-RgV" id="RIr-8L-1tx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gk0-eR-puH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
