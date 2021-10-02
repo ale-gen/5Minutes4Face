@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		15E2E3C92757382FC59C5462 /* Pods_5Minutes4Face.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCBED3365E1375EE66386A4 /* Pods_5Minutes4Face.framework */; };
-		7A1E321C26FFC143002BD263 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E321A26FFC143002BD263 /* DataModel.xcdatamodeld */; };
 		7A1E321F26FFC2D4002BD263 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E321E26FFC2D4002BD263 /* CoreDataHelper.swift */; };
 		7A1E322326FFC63E002BD263 /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E322226FFC63E002BD263 /* PersonDetailsViewController.swift */; };
 		7A1E322626FFCBF4002BD263 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E322526FFCBF4002BD263 /* PersonTableViewCell.swift */; };
@@ -17,14 +16,13 @@
 		7A27AC4C26FF0A3400FFB0F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27AC4B26FF0A3400FFB0F9 /* SceneDelegate.swift */; };
 		7A27AC4E26FF0A3400FFB0F9 /* PeopleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27AC4D26FF0A3400FFB0F9 /* PeopleListViewController.swift */; };
 		7A27AC5126FF0A3400FFB0F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A27AC4F26FF0A3400FFB0F9 /* Main.storyboard */; };
-		7A27AC5426FF0A3400FFB0F9 /* _Minutes4Face.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A27AC5226FF0A3400FFB0F9 /* _Minutes4Face.xcdatamodeld */; };
 		7A27AC5626FF0A3700FFB0F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A27AC5526FF0A3700FFB0F9 /* Assets.xcassets */; };
 		7A27AC5926FF0A3700FFB0F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A27AC5726FF0A3700FFB0F9 /* LaunchScreen.storyboard */; };
 		7A27AC6226FF0A9800FFB0F9 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 7A27AC6126FF0A9800FFB0F9 /* Readme.md */; };
+		7ADC459527008DDE006AED95 /* PeopleListData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7ADC459327008DDE006AED95 /* PeopleListData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A1E321B26FFC143002BD263 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		7A1E321E26FFC2D4002BD263 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 		7A1E322226FFC63E002BD263 /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
 		7A1E322526FFCBF4002BD263 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
@@ -34,11 +32,11 @@
 		7A27AC4B26FF0A3400FFB0F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7A27AC4D26FF0A3400FFB0F9 /* PeopleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListViewController.swift; sourceTree = "<group>"; };
 		7A27AC5026FF0A3400FFB0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7A27AC5326FF0A3400FFB0F9 /* _Minutes4Face.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _Minutes4Face.xcdatamodel; sourceTree = "<group>"; };
 		7A27AC5526FF0A3700FFB0F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A27AC5826FF0A3700FFB0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A27AC5A26FF0A3700FFB0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A27AC6126FF0A9800FFB0F9 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		7ADC459427008DDE006AED95 /* PeopleListData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PeopleListData.xcdatamodel; sourceTree = "<group>"; };
 		9AC50A5AACA94D2479387412 /* Pods-5Minutes4Face.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5Minutes4Face.release.xcconfig"; path = "Target Support Files/Pods-5Minutes4Face/Pods-5Minutes4Face.release.xcconfig"; sourceTree = "<group>"; };
 		BDCBED3365E1375EE66386A4 /* Pods_5Minutes4Face.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_5Minutes4Face.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3E0AF7629B00669E3A5F68 /* Pods-5Minutes4Face.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5Minutes4Face.debug.xcconfig"; path = "Target Support Files/Pods-5Minutes4Face/Pods-5Minutes4Face.debug.xcconfig"; sourceTree = "<group>"; };
@@ -79,7 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				7A27AC4926FF0A3400FFB0F9 /* AppDelegate.swift */,
-				7A1E321A26FFC143002BD263 /* DataModel.xcdatamodeld */,
+				7ADC459327008DDE006AED95 /* PeopleListData.xcdatamodeld */,
 				7A1E321E26FFC2D4002BD263 /* CoreDataHelper.swift */,
 				7A27AC4B26FF0A3400FFB0F9 /* SceneDelegate.swift */,
 				7A27AC4D26FF0A3400FFB0F9 /* PeopleListViewController.swift */,
@@ -87,7 +85,6 @@
 				7A27AC5526FF0A3700FFB0F9 /* Assets.xcassets */,
 				7A27AC5726FF0A3700FFB0F9 /* LaunchScreen.storyboard */,
 				7A27AC5A26FF0A3700FFB0F9 /* Info.plist */,
-				7A27AC5226FF0A3400FFB0F9 /* _Minutes4Face.xcdatamodeld */,
 				7A1E322226FFC63E002BD263 /* PersonDetailsViewController.swift */,
 				7A1E322526FFCBF4002BD263 /* PersonTableViewCell.swift */,
 				7A1E322C26FFD9B2002BD263 /* Constants.swift */,
@@ -229,8 +226,7 @@
 			files = (
 				7A1E321F26FFC2D4002BD263 /* CoreDataHelper.swift in Sources */,
 				7A27AC4E26FF0A3400FFB0F9 /* PeopleListViewController.swift in Sources */,
-				7A1E321C26FFC143002BD263 /* DataModel.xcdatamodeld in Sources */,
-				7A27AC5426FF0A3400FFB0F9 /* _Minutes4Face.xcdatamodeld in Sources */,
+				7ADC459527008DDE006AED95 /* PeopleListData.xcdatamodeld in Sources */,
 				7A27AC4A26FF0A3400FFB0F9 /* AppDelegate.swift in Sources */,
 				7A27AC4C26FF0A3400FFB0F9 /* SceneDelegate.swift in Sources */,
 				7A1E322626FFCBF4002BD263 /* PersonTableViewCell.swift in Sources */,
@@ -441,23 +437,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		7A1E321A26FFC143002BD263 /* DataModel.xcdatamodeld */ = {
+		7ADC459327008DDE006AED95 /* PeopleListData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				7A1E321B26FFC143002BD263 /* DataModel.xcdatamodel */,
+				7ADC459427008DDE006AED95 /* PeopleListData.xcdatamodel */,
 			);
-			currentVersion = 7A1E321B26FFC143002BD263 /* DataModel.xcdatamodel */;
-			path = DataModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		7A27AC5226FF0A3400FFB0F9 /* _Minutes4Face.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				7A27AC5326FF0A3400FFB0F9 /* _Minutes4Face.xcdatamodel */,
-			);
-			currentVersion = 7A27AC5326FF0A3400FFB0F9 /* _Minutes4Face.xcdatamodel */;
-			path = _Minutes4Face.xcdatamodeld;
+			currentVersion = 7ADC459427008DDE006AED95 /* PeopleListData.xcdatamodel */;
+			path = PeopleListData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

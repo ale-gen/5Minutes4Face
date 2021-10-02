@@ -42,13 +42,13 @@ class PersonTableViewCell: UITableViewCell {
         if person.finished {
             leftTimeLabel.text = "Time's up"
         } else {
-            let totalLeftTime = person.totalDurationTime
+            let currentTimeInSeconds = Int64(Date().timeIntervalSince(person.startedTime!))
+            let totalLeftTime = person.totalDurationTime - currentTimeInSeconds
             if totalLeftTime > 0 {
                 let leftMinutes = totalLeftTime / 60
                 let leftSeconds = totalLeftTime % 60
                 
                 leftTimeLabel.text = "\(leftMinutes)m \(leftSeconds)s"
-                person.totalDurationTime -= 1
             } else {
                 person.finished = true
             }

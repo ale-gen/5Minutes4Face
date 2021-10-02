@@ -22,6 +22,8 @@ class PeopleListViewController: UIViewController {
         imagePicker.delegate = self
         
         peopleList = CoreDataHelper.loadPeopleList()
+        tableView.reloadData()
+        updateTimerState()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -34,6 +36,15 @@ class PeopleListViewController: UIViewController {
         imagePicker.sourceType = .photoLibrary
         imagePicker.allowsEditing = false
         present(imagePicker, animated: true, completion: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == K.detailsViewSegueIdentifier, let destination = segue.destination as? PersonDetailsViewController,
+           let personIndexPath = tableView.indexPathForSelectedRow {
+            if let cell = tableView.cellForRow(at: personIndexPath) as? PersonTableViewCell {
+                destination.person = cell.person
+            }
+        }
     }
     
 }
@@ -50,7 +61,22 @@ extension PeopleListViewController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
     
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if (editingStyle == .delete) {
+            let personToDelete = peopleList[indexPath.row]
+            CoreDataHelper.deleteFromList(person: personToDelete)
+            peopleList = CoreDataHelper.loadPeopleList()
+            tableView.reloadData()
+        }
+    }
 }
 
 //MARK: - Set chosen image as person's image
@@ -59,6 +85,7 @@ extension PeopleListViewController: UIImagePickerControllerDelegate & UINavigati
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let userPickedImage = info[.originalImage] as? UIImage {
             let newPerson = Person(context: CoreDataHelper.context)
+            newPerson.startedTime = Date()
             newPerson.image = userPickedImage.jpegData(compressionQuality: 1.0)
             peopleList.append(newPerson)
 
@@ -94,8 +121,27 @@ extension PeopleListViewController {
           cell.updateTime()
         }
       }
-
-
+    }
+    
+    func stopTimer() {
+        timer?.invalidate()
+        timer = nil
+    }
+    
+    func checkIsTimerNeeded() -> Bool {
+        for person in peopleList {
+            if !person.finished {
+                return true
+            }
+        }
+        return false
+    }
+    
+    func updateTimerState() {
+        if checkIsTimerNeeded() {
+            createTimer()
+        } else {
+            stopTimer()
+        }
     }
 }
-
