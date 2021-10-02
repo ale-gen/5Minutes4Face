@@ -76,20 +76,52 @@
 		7A27AC4826FF0A3400FFB0F9 /* 5Minutes4Face */ = {
 			isa = PBXGroup;
 			children = (
-				7A27AC4926FF0A3400FFB0F9 /* AppDelegate.swift */,
-				7ADC459327008DDE006AED95 /* PeopleListData.xcdatamodeld */,
-				7A1E321E26FFC2D4002BD263 /* CoreDataHelper.swift */,
-				7A27AC4B26FF0A3400FFB0F9 /* SceneDelegate.swift */,
-				7A27AC4D26FF0A3400FFB0F9 /* PeopleListViewController.swift */,
-				7A27AC4F26FF0A3400FFB0F9 /* Main.storyboard */,
+				7A9F900A270857C80095B4C4 /* SupportingFiles */,
+				7A9F9008270857BB0095B4C4 /* DataModel */,
+				7A9F900E2708580D0095B4C4 /* Views */,
 				7A27AC5526FF0A3700FFB0F9 /* Assets.xcassets */,
-				7A27AC5726FF0A3700FFB0F9 /* LaunchScreen.storyboard */,
-				7A27AC5A26FF0A3700FFB0F9 /* Info.plist */,
-				7A1E322226FFC63E002BD263 /* PersonDetailsViewController.swift */,
-				7A1E322526FFCBF4002BD263 /* PersonTableViewCell.swift */,
+				7A9F9007270857AC0095B4C4 /* Controllers */,
 				7A1E322C26FFD9B2002BD263 /* Constants.swift */,
 			);
 			path = 5Minutes4Face;
+			sourceTree = "<group>";
+		};
+		7A9F9007270857AC0095B4C4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A27AC4D26FF0A3400FFB0F9 /* PeopleListViewController.swift */,
+				7A1E322226FFC63E002BD263 /* PersonDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7A9F9008270857BB0095B4C4 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				7ADC459327008DDE006AED95 /* PeopleListData.xcdatamodeld */,
+				7A1E321E26FFC2D4002BD263 /* CoreDataHelper.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		7A9F900A270857C80095B4C4 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7A27AC5A26FF0A3700FFB0F9 /* Info.plist */,
+				7A27AC4926FF0A3400FFB0F9 /* AppDelegate.swift */,
+				7A27AC4B26FF0A3400FFB0F9 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		7A9F900E2708580D0095B4C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A1E322526FFCBF4002BD263 /* PersonTableViewCell.swift */,
+				7A27AC4F26FF0A3400FFB0F9 /* Main.storyboard */,
+				7A27AC5726FF0A3700FFB0F9 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		8D75AD2843CB386A1C252A19 /* Frameworks */ = {
